@@ -9,18 +9,6 @@ import subprocess
 from subprocess import call
 
 import time
-'''
-command = ['echo', 'I like potatoes']
-proc = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-o, e = proc.communicate()
-
-
-output = o.decode('ascii')
-error = e.decode('ascii')
-
-print(type(output))
-'''
 
 base = './raven-cli'
 
